@@ -19,7 +19,7 @@ import RecomFour from '../../../Pictures/RecomFour.jpg'
 const About = () => {
     const CardStyles = {
         height: '20em',
-        color: 'rgb(146, 146, 146)',
+        color: 'rgb(4, 48, 4)',
         fontSize: '0.7em',
         margin: '2em',
         padding: '3em 2em 2em',
@@ -56,7 +56,7 @@ const About = () => {
                         </Col>
                     </Row>
 
-                    <Row className='bg-info'>
+                    <Row>
                         <Recommendations />
                     </Row>
                 </Col>   
@@ -81,10 +81,10 @@ const Recommendations = () => {
     return (
         <>
             <Col as='h2' sm={12} className='text-center m-0'>Recommendations</Col>
-            <Col className='recom p-5' style={{backgroundImage: 'linear-gradient(to right, rgb(109, 138, 109) 50%, rgb(72, 72, 209))'}}>
+            <Col className='recom p-5'>
                 <Slider {...settings}>
                     <Row>
-                        <Col md={4} style={{float: 'left'}}>
+                        <Col md={4}>
                             <Image src={RecomOne} roundedCircle height='150' width='150' />
                             <div>
                                 <h3>Jamal Kareem</h3>
@@ -97,13 +97,13 @@ const Recommendations = () => {
                     </Row>
 
                     <Row>
-                        <Col md={4} style={{float: 'left'}}>
-                            <Image src={RecomThree} style={{float: 'left'}} roundedCircle height='150' width='150' />
+                        <Col md={4}>
+                            <Image src={RecomThree} roundedCircle height='150' width='150' />
                             <div>
                                 <h3>Aisha Idiom S.</h3>
                                 <p>Pornstar</p>
                             </div>
-                            <div style={{clear: 'both'}}>
+                            <div>
                                 <p>I got my thongs from Freaksy and every customer at the club has been wanting to fuck me</p>
                             </div>
                         </Col>
@@ -111,12 +111,12 @@ const Recommendations = () => {
 
                     <Row>
                         <Col md={4}>
-                            <Image src={RecomFour} style={{float: 'left'}} roundedCircle height='150' width='150' />
+                            <Image src={RecomFour} roundedCircle height='150' width='150' />
                             <div>
                                 <h3>Johnny Doe</h3>
                                 <p>Website devlopper</p>
                             </div>
-                            <div style={{clear: 'both'}}>
+                            <div>
                                 <p>Nice store. Delivery was flawless and quick. I even got a refund on my shirt because I chose a bigger pair.</p>
                             </div>
                         </Col>
@@ -124,12 +124,12 @@ const Recommendations = () => {
 
                     <Row>
                         <Col md={4}>
-                            <Image src={RecomTwo} style={{float: 'left'}} roundedCircle height='150' width='150' />
+                            <Image src={RecomTwo} roundedCircle height='150' width='150' />
                             <div>
                                 <h3>Zubairu Dumbo</h3>
                                 <p>Lawyer</p>
                             </div>
-                            <div style={{clear: 'both'}}>
+                            <div>
                                 <p>Only Place i go to for all my clothings. They are just perfect.</p>
                             </div>
                         </Col>

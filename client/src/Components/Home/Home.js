@@ -6,8 +6,6 @@ import Header from './Header/Header'
 import About from './About/About'
 import Blog from './Blog/Blog'
 
-import styled from 'styled-components'
-
 
 const Home = () => {
     return (
