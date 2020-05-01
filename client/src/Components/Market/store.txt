@@ -1,3 +1,4 @@
 colors used:
     'rgb(6, 29, 13)'    top of market background
     'rgb(255, 246, 239)'    top header font color
+    'rgb(245, 112, 10)'   search-icon color

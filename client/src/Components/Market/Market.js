@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Navigation from './Navigation'
+import Filter from './Filters/Filters'
 
 
 const Market = () => {
@@ -62,6 +63,66 @@ const Market = () => {
 
                     <Col sm={12} className='px-0'>
                         <Navigation />
+                    </Col>
+                </Row>
+
+                <Row className='py-3 mx-4'>
+                    <Col sm={12}>
+                        <Row>
+                            <Col sm={6}>
+                                <Row>
+                                    <Col sm={2}>
+                                        New
+                                    </Col>
+
+                                    <Col sm={3}>
+                                        Best Seller
+                                    </Col>
+
+                                    <Col sm={3}>
+                                        Most Viewed
+                                    </Col>
+
+                                    <Col sm={4}>
+                                        Devices & Laptops
+                                    </Col>
+                                </Row>
+                            </Col>
+
+                            <Col sm={6}>
+                                <Row>
+                                <Col sm={3}>
+                                        Fabrics
+                                    </Col>
+
+                                    <Col sm={3}>
+                                        Accessories
+                                    </Col>
+
+                                    <Col sm={3}>
+                                        Electronics
+                                    </Col>
+
+                                    <Col sm={3}>
+                                        All Categories
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            
+                <Row className='mt-4'>
+                    <Col sm={12} className='mt-4'>
+                        <Row>
+                            <Col sm={3} className='pl-2'>
+                                <Filter />
+                            </Col>
+
+                            <Col sm={9}>
+                                Men Wears
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

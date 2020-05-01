@@ -6,13 +6,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faMinus, faPlus, faStar } from '@fortawesome/free-solid-svg-icons'
 
 import Home from './Components/Home/Home'
 import Market from './Components/Market/Market'
 
 import './App.scss'
 
-library.add(fab)
+library.add(fab, faMinus, faPlus, faStar)
 
 
 const App = () => {
