@@ -1,0 +1,18 @@
+div.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: white;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.searchBox {
+    margin: 0 auto;
+}
+
+.nav-component {
+    margin-left: auto;
+    width: 30vw;
+}

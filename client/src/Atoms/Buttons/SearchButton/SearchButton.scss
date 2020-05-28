@@ -1,0 +1,14 @@
+div.search-button-box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+button.button-search {
+    background: rgb(245, 112, 10);
+    color: white;
+    border: 0.125em solid rgb(245, 112, 10);
+    width: auto;
+    height: 3em;
+    align-self: end;
+}

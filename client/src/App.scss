@@ -1,11 +1,10 @@
 body {
   overflow-x: hidden;
-}
-
-body::-webkit-scrollbar {
-  width: 0.3em;
-  height: 0.3em;
-  cursor: pointer;
+  min-height: 100vh;
+  background: rgb(240, 240, 240);
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar-thumb:hover {

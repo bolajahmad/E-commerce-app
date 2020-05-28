@@ -1,20 +1,20 @@
 import React from 'react'
 
-import { Container } from 'react-bootstrap'
+import CollectionList from '../../Organisms/CollectionList'
 
-import Header from './Header/Header'
-import About from './About/About'
-import Blog from './Blog/Blog'
+import Navbar from '../../Molecules/Navbar'
+
+import './Home.scss'
 
 
-const Home = () => {
+const Header = () => {
     return (
-        <Container style={{padding: '0'}} fluid>
-            <Header />
-            <About />
-            <Blog />
-        </Container>
+        <div>
+            <Navbar />
+
+            <CollectionList />
+        </div>
     )
 }
 
-export default Home
+export default Header

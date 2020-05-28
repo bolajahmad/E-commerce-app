@@ -1,0 +1,13 @@
+div.logo-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 6.25em;
+    height: 6.25em;
+    border: 0.0625em solid rgb(245, 112, 10);
+    border-radius: 50%;
+}
+
+h1.logo-placeholder {
+    color: rgb(245, 112, 10);
+}
